@@ -10,5 +10,11 @@ declare module 'knex/types/tables' {
       created_at: string
       session_id?: string
     }
+    tasks: {
+      id: string
+      task: string
+      completed: boolean
+      created_at: date
+    }
   }
 }
